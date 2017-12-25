@@ -1,0 +1,24 @@
+{
+  "name": "angular1-starter",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.8",
+    "ng-redux": "^3.5.2",
+    "redux-thunk": "https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.2.0/redux-thunk.min.js",
+    "redux": "^3.7.2",
+    "angular-ui-router": "^1.0.12",
+    "angular-toastr": "^2.1.1",
+    "angular-animate": "^1.6.8",
+    "foundation-sites": "^6.4.3"
+  }
+}

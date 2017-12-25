@@ -1,0 +1,41 @@
+{
+  "name": "angular1-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bower": "bower",
+    "grunt": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-stage-3": "^6.24.1",
+    "bower": "^1.8.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.2.0",
+    "babel-preset-env": "^1.6.1",
+    "grunt-babel": "^7.0.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-filerev": "^2.3.1",
+    "grunt-ng-annotate": "^3.0.0",
+    "grunt-ng-templates": "^1.0.0",
+    "grunt-sails-linker": "^1.0.4",
+    "grunt-sass": "^2.0.0",
+    "grunt-usemin": "^3.1.1",
+    "grunt-wiredep": "^3.0.1",
+    "load-grunt-tasks": "^3.5.2",
+    "serve-static": "^1.13.1",
+    "time-grunt": "^1.4.0"
+  }
+}

@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="columns small-4 small-centered">
+    <h1>Login Page</h1>
+    <form ng-submit="attempLogin(username, password)">
+      Username: <input type="text" ng-model="username" ng-disabled="auth.login.requesting"/>
+      Password: <input type="password" ng-model="password" ng-disabled="auth.login.requesting"/>
+      <button class="button" type="submit" ng-disabled="auth.login.requesting">Submit</button>
+    </form>
+    <a ui-sref="config">Config Page</a>
+  </div>
+</div>
